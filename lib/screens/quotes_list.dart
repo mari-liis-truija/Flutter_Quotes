@@ -19,11 +19,10 @@ class _quotesListState extends State<quotesList> {
         title: const Text(
           "Quotes List",
           style: TextStyle(
-            letterSpacing: 1.8,
             fontWeight: FontWeight.bold,
+            letterSpacing: 1.8,
           ),
         ),
-        centerTitle: true,
       ),
       body: SingleChildScrollView(
         child: Column(
